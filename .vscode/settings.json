@@ -1,0 +1,5 @@
+{
+    "editor.tabSize": 4,
+    "editor.formatOnSave": true, // 저장 시 자동 정렬
+    "typescript.tsdk": "node_modules/typescript/lib", // TypeScript SDK 설정
+}

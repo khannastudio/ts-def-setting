@@ -1,0 +1,16 @@
+{
+    "watch": [
+        "src"
+    ],
+    "ext": "ts,json",
+    "ignore": [
+        "build",
+        "dist"
+    ],
+    "execMap": {
+        "ts": "ts-node -r tsconfig-paths/register"
+    },
+    "exec": "ts-node ./src/index.ts",
+    "restartable": "rs",
+    "verbose": true
+}
