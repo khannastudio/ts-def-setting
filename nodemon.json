@@ -7,10 +7,7 @@
         "build",
         "dist"
     ],
-    "execMap": {
-        "ts": "ts-node -r tsconfig-paths/register"
-    },
-    "exec": "ts-node ./src/index.ts",
+    "exec": "ts-node -r tsconfig-paths/register ./src/index.ts",
     "restartable": "rs",
     "verbose": true
 }
